@@ -1,28 +1,41 @@
-# Titanic EDA and ML
+# 🎥 Titanic EDA Slideshow
 
-## Overview
-This project explores the Titanic dataset using Python and various machine learning algorithms to predict survival outcomes of passengers.
+![Jupyter Logo](https://jupyter.org/assets/main-logo.svg)
 
-## Requirements
-- Python 3
-- Libraries: numpy, pandas, seaborn, matplotlib, scikit-learn
+## 📌 Overview
+Create an interactive **Jupyter slideshow** for Titanic data analysis.
 
-## Dataset
-The dataset contains information about passengers aboard the Titanic, including demographic features and survival status. You can download the dataset from [Kaggle](https://www.kaggle.com/competitions/titanic/data).
+---
 
-## Usage
-1. Clone this repository.
-2. Ensure you have the required dependencies installed.
-3. Run the notebook to perform exploratory data analysis and train machine learning models.
-4. Analyze the results and model performance.
+## 📂 Dataset
+Passenger details, demographics, and survival info.  
+📥 [Download from Kaggle](https://www.kaggle.com/competitions/titanic/data).
 
-## Models Used
-- Logistic Regression
-- Decision Tree Classifier
-- Random Forest Classifier
-- Support Vector Classifier (SVC)
-- Gradient Boosting Classifier
+---
 
-## Performance
-The highest achieved accuracy score on the test data is 0.78708.
+## ⚙️ Jupyter Slideshow Setup
+### **1️⃣ Enable Slideshow Mode**
+🔹 Go to **View ➡️ Cell Toolbar ➡️ Slideshow**
 
+### **2️⃣ Assign Slide Types**
+| Type       | Description                          | Navigation |
+|------------|--------------------------------------|------------|
+| **Slide**      | Starts a new slide                  | ➡️ |
+| **Sub-Slide**  | Replaces previous slide content    | ⬇️ |
+| **Fragment**   | Adds content to the same slide     | ⬇️ & ➡️ |
+| **Skip**       | Hidden in the presentation         | ❌ |
+| **Notes**      | Speaker notes (not displayed)      | 📝 |
+
+---
+
+## 🛠 Convert to Presentation
+Run the following commands in your terminal:
+
+```bash
+# Convert to slideshow
+jupyter nbconvert --to slides "presentation.ipynb"
+```
+```bash
+# Convert with hidden code
+jupyter nbconvert --to slides --no-input "presentation.ipynb"
+```
