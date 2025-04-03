@@ -1,4 +1,4 @@
-# 🎥 Titanic EDA Slideshow
+# [🎥 Titanic EDA Slideshow](https://nisanman.github.io/Kaggle/#/)
 
 ![Jupyter Logo](https://jupyter.org/assets/main-logo.svg)
 
