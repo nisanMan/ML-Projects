@@ -40,3 +40,5 @@ jupyter nbconvert --to slides "presentation.ipynb"
 jupyter nbconvert --to slides --no-input "presentation.ipynb"
 ```
 [Jupyter Slideshow](https://nisanman.github.io/Kaggle/#/)
+
+- [ ] [Make it in Plotly](https://digitalhumanities.hkust.edu.hk/tutorials/turn-your-jupyter-notebook-into-interactive-presentation-slides-using-anaconda/) 
