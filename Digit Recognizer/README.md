@@ -1,35 +1,45 @@
 # Digit Recognizer
+```markdown
+ ├── Dictionary save and load
+ │   ├── dictionary_learning_model_64.pkl
+ │   ├── load the model n.ipynb
+ │   ├── model n Dictionary Learning.ipynb
+ ├── individual model
+ │   ├── 🚀Linear Algebra Score 82%.ipynb
+ │   ├── 🤖Neural network 4layer 3Activation Score 89%.ipynb
+ ├── Sklearn standard model
+ │   ├── 🔪SVC Score 95%.ipynb
+ │   ├── 🧩Logistic Regression Score 91%.ipynb
+```
 
 ## Overview
 This project aims to recognize handwritten digits using various machine learning algorithms and techniques.
-
-## Requirements
-- Python 3
-- Libraries: numpy, pandas, seaborn, matplotlib, scikit-learn
+- [x] Math for ML 
+- [x] Standard model
+- [x] Save and load model
+- [ ] Grid search techniques
+- [ ] Ensemble models techniques
 
 ## Dataset
 The dataset consists of handwritten digit images in grayscale format. It is commonly used for training various image processing systems. You can download the dataset from [Kaggle](https://www.kaggle.com/competitions/digit-recognizer/data).
 
-## Usage
-1. Clone this repository.
-2. Ensure you have the required dependencies installed.
-3. Run the notebook to perform exploratory data analysis and train machine learning models.
-4. Analyze the results and model performance.
 
-## Models Used
-- Support Vector Classifier (SVC) (Best Score: 0.975)
-- Logistic Regression (Score: 0.91617)
-- Neural Network (Custom 4-layer, 3 Activation Functions) (Max Score: 0.89)
+## Performance Score
+- **SVC**: 97% `Best Score`
+- **Logistic Regression**: 92%
+- **Custom Linear Algebra**: 82% 
+- **Custom Neural network**: 89%
 
-## Custom Approach
-The custom approach involves building a model based on matrix multiplication to recognize digits. The highest achieved score using this approach is 0.82.
+### ├── Dictionary save and load
+- Practice saving and loading models.
 
-## Performance
-- Best Score: 0.975 (SVC)
-- Logistic Regression Score: 0.91617
-- Custom Neural Network Score: 0.89
-- Custom Approach Score: 0.82
+### ├── individual model
+- Model of Linear Algebra published in [kaggle My Code](https://www.kaggle.com/code/nisansher/digit-recognizer-only-linear-algebra-score-82)
+- Neural network from scratch.
+### ├──Sklearn standard model
+The workflow involves scaling, and for each method, the scaling is adjusted accordingly. The table below summarizes scaling methods and model hyperparameters.
 
+#### Scaling Method
 | Scaling Method        | Best Suited For                                     | Description |
 |----------------------|--------------------------------------------------|-------------|
 | **StandardScaler**   | Logistic Regression, KNN, PCA, Gradient Descent  | Centers data to mean 0 and standard deviation 1. Works well for models sensitive to feature scales. |
@@ -46,36 +56,8 @@ The custom approach involves building a model based on matrix multiplication to 
 - If **features have large ranges** → `MinMaxScaler` / `MaxAbsScaler`  
 - If **data is normally distributed** → `StandardScaler`  
 
-⚡ **If unsure, start with `StandardScaler` or `MinMaxScaler` and compare results.**
 
-# Hyperparameters of `LogisticRegression` and `SVC`
-
-| Parameter          | LogisticRegression                                     | SVC                                  |
-|--------------------|------------------------------------------------------|--------------------------------------|
-| `penalty`         | `'l1'`, `'l2'`, `'elasticnet'`, `None`                | `'l1'`, `'l2'` (only for `linear` kernel) |
-| `dual`            | `True`, `False` (only for `l2` with `liblinear`)      | Not applicable                      |
-| `tol`             | Convergence tolerance (default: `1e-4`)               | Convergence tolerance (default: `1e-3`) |
-| `C`               | Regularization strength (default: `1.0`)              | Regularization parameter (default: `1.0`) |
-| `fit_intercept`   | `True`, `False` (whether to add intercept)            | Not applicable                      |
-| `intercept_scaling` | Scaling for intercept (only for `liblinear`)         | Not applicable                      |
-| `class_weight`    | `None`, `'balanced'`                                  | `None`, `'balanced'`                |
-| `random_state`    | Controls randomness (default: `None`)                 | Controls randomness (default: `None`) |
-| `solver`          | `'lbfgs'`, `'liblinear'`, `'saga'`, `'newton-cg'`, `'sag'` | `'linear'`, `'poly'`, `'rbf'`, `'sigmoid'` |
-| `max_iter`        | Maximum iterations (default: `100`)                   | Maximum iterations (default: `-1`, no limit) |
-| `multi_class`     | `'auto'`, `'ovr'`, `'multinomial'`                    | Not applicable                      |
-| `verbose`         | `0` (silent) or higher for more output                | `0` (silent) or higher for more output |
-| `warm_start`      | `True`, `False` (continue training from previous state) | Not applicable                      |
-| `n_jobs`          | Number of CPU cores (default: `None`, single core)    | Not applicable                      |
-| `l1_ratio`        | Only for `elasticnet` (range: `0` to `1`)             | Not applicable                      |
-| `kernel`         | Not applicable                                         | `'linear'`, `'poly'`, `'rbf'`, `'sigmoid'` |
-| `degree`         | Not applicable                                         | Degree of polynomial kernel (`poly` only) |
-| `gamma`          | Not applicable                                         | Kernel coefficient (`scale`, `auto`, or float) |
-| `coef0`         | Not applicable                                         | Independent term in `poly` and `sigmoid` kernels |
-| `shrinking`      | Not applicable                                         | Whether to use shrinking heuristic (`True`, `False`) |
-| `probability`    | Not applicable                                         | Whether to enable probability estimates (`True`, `False`) |
-| `cache_size`     | Not applicable                                         | Memory size (in MB) for kernel cache (default: `200`) |
-| `decision_function_shape` | Not applicable                                | `'ovr'` (one-vs-rest) or `'ovo'` (one-vs-one) |
-| `break_ties`     | Not applicable                                         | Whether to break ties in `decision_function_shape='ovr'` |
+#### Hyperparameters of `LogisticRegression` and `SVC`
 
 ```pyton
 from sklearn.linear_model import LogisticRegression
