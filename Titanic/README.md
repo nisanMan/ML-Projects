@@ -1,6 +1,6 @@
 # [🎥 Titanic EDA Slideshow](https://nisanman.github.io/Kaggle/#/)
 
-![Jupyter Logo]([https://jupyter.org/assets/main-logo.svg](https://jupyter.org/assets/homepage/main-logo.svg))
+![Jupyter Logo](https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg)
 
 ## 📌 Overview
 Create an interactive **Jupyter slideshow** for Titanic data analysis.
