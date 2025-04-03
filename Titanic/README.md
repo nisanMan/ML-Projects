@@ -39,3 +39,4 @@ jupyter nbconvert --to slides "presentation.ipynb"
 # Convert with hidden code
 jupyter nbconvert --to slides --no-input "presentation.ipynb"
 ```
+[Jupyter Slideshow](https://nisanman.github.io/Kaggle/#/)
