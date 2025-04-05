@@ -5,9 +5,9 @@
  │   ├── load the model n.ipynb
  │   ├── model n Dictionary Learning.ipynb
  ├── Math for ML
+ │   ├── SVD (& jpeg for SVD)
  │   ├── 🚀Linear Algebra Score 82%.ipynb
  │   ├── 🤖Neural network 4layer 3Activation Score 89%.ipynb
- │   ├── SVD
  ├── Sklearn standard model
  │   ├── 🔪SVC Score 95%.ipynb
  │   ├── 🧩Logistic Regression Score 91%.ipynb
@@ -15,8 +15,13 @@
 
 ## Overview
 This project aims to recognize handwritten digits using various machine learning algorithms and techniques.
-- [x] Math for ML 
-- [x] Standard model
+- [x] Math for ML:
+ - [x] Linear Algebra
+ - [x] NN
+ - [x] SVD
+- [x] Standard model:
+ - [x] Logistic Regression
+ - [x] SVM
 - [x] Save and load model
 - [ ] Grid search techniques
 - [ ] Ensemble models techniques
