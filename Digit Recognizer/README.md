@@ -4,9 +4,10 @@
  │   ├── dictionary_learning_model_64.pkl
  │   ├── load the model n.ipynb
  │   ├── model n Dictionary Learning.ipynb
- ├── individual model
+ ├── Math for ML
  │   ├── 🚀Linear Algebra Score 82%.ipynb
  │   ├── 🤖Neural network 4layer 3Activation Score 89%.ipynb
+ │   ├── SVD
  ├── Sklearn standard model
  │   ├── 🔪SVC Score 95%.ipynb
  │   ├── 🧩Logistic Regression Score 91%.ipynb
@@ -33,9 +34,10 @@ The dataset consists of handwritten digit images in grayscale format. It is comm
 ### ├── Dictionary save and load
 - Practice saving and loading models.
 
-### ├── individual model
+### ├── Math for ML
 - Model of Linear Algebra published in [kaggle My Code](https://www.kaggle.com/code/nisansher/digit-recognizer-only-linear-algebra-score-82)
 - Neural network from scratch.
+- SVD `sklearn.decomposition` dimension reduction VS linear regression, Image Compression, LSA and more.
 ### ├──Sklearn standard model
 The workflow involves scaling, and for each method, the scaling is adjusted accordingly. The table below summarizes scaling methods and model hyperparameters.
 
