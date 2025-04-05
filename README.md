@@ -7,9 +7,10 @@
 │   │   ├── dictionary_learning_model_64.pkl  
 │   │   ├── load the model n.ipynb  
 │   │   ├── model n Dictionary Learning.ipynb  
-│   ├── individual model
+│   ├── Math for ML
+│   │   ├── SVD
 │   │   ├── 🚀Linear Algebra Score 82%.ipynb  
-│   │   ├── 🤖Neural network 4layer 3Activation Score 89%.ipynb  
+│   │   ├── 🤖Neural network 4layer 3Activation Score 89%.ipynb
 │   ├── Sklearn standard model 
 │   │   ├── 🔪SVC Score 95%.ipynb  
 │   │   ├── 🧩Logistic Regression Score 91%.ipynb  
