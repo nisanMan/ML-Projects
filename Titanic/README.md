@@ -1,7 +1,7 @@
-# 🎥 Titanic EDA Slideshow
+# [🎥 Titanic EDA Slideshow](https://nisanman.github.io/Kaggle/#/)
 
-![Jupyter Logo](https://jupyter.org/assets/main-logo.svg)
-
+![Jupyter Logo](https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg)
+<a href="https://pandas.pydata.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="50"/></a>
 ## 📌 Overview
 Create an interactive **Jupyter slideshow** for Titanic data analysis.
 
@@ -39,3 +39,6 @@ jupyter nbconvert --to slides "presentation.ipynb"
 # Convert with hidden code
 jupyter nbconvert --to slides --no-input "presentation.ipynb"
 ```
+[Jupyter Slideshow](https://nisanman.github.io/Kaggle/#/)
+
+- [ ] [Make it in Plotly](https://digitalhumanities.hkust.edu.hk/tutorials/turn-your-jupyter-notebook-into-interactive-presentation-slides-using-anaconda/) 
