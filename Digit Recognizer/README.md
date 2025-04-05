@@ -15,8 +15,8 @@
 
 ## Overview
 This project aims to recognize handwritten digits using various machine learning algorithms and techniques.
-- [x] Math for ML: Linear Algebra, NN, SVD
-- [x] Standard model: Logistic Regression, SVM
+- [x] Math for ML: `Linear Algebra`, `NN`, `SVD`
+- [x] Standard model: `Logistic Regression`, `SVM`
 - [x] Save and load model
 - [ ] Grid search techniques
 - [ ] Ensemble models techniques
