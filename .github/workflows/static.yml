@@ -34,8 +34,8 @@ jobs:
 
       - name: Move files to public directory
         run: |
-          mkdir public
-          mv Titanic/Titanic\ EDA\ slide.slides.html public/index.html
+           mkdir -p public
+           cp Titanic/index.html public/index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
