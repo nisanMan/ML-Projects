@@ -35,7 +35,7 @@ jobs:
       - name: Move files to public directory
         run: |
            mkdir -p public
-           cp Titanic/index.html public/index.html
+           cp Titanic/index.html public/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
