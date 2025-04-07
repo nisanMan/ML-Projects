@@ -30,5 +30,5 @@ A project for digit recognition.
 - **Sklearn standard model/** – `Standard approach` using Scikit-Learn. SVC and Logistic Regression.
 
 ### Titanic
-- Experimenting with `Jupyter Slideshow` [presentations](https://nisanman.github.io/Kaggle/#/).
+- Experimenting with `Jupyter Slideshow` [presentations](https://nisanman.github.io/ML-Projects/#/)
 
