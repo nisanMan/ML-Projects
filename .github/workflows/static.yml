@@ -34,8 +34,8 @@ jobs:
       - name: Prepare public folder
         run: |
           mkdir -p public
-          cp Titanic/index.html public/index.html
-        
+          cp Titanic/index public/index.html
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
